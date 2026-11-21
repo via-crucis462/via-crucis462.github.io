@@ -38,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-  .sans-serif;
+  .serif;
   line-height: 1.1;
   font-weight: bold;
 }
@@ -1101,4 +1101,182 @@ img::-moz-selection {
 
 .no-scroll {
   overflow-y: hidden;
+}
+
+/* ============================================================
+   月姬 -A piece of blue glass moon- · 全局深色模式
+   ============================================================ */
+
+body {
+  background-color: #0e1420;
+  color: #ccd6e4;
+}
+
+/* 链接 */
+a {
+  color: #ccd6e4;
+}
+a:hover,
+a:focus {
+  color: #7ca3d9;
+}
+
+/* 导航栏：滚动固定后（原为白色背景） */
+.navbar-custom.is-fixed {
+  background-color: rgba(14, 20, 32, 0.94);
+  border-bottom: 1px solid #26324a;
+}
+.navbar-custom.is-fixed .navbar-brand,
+.navbar-custom.is-fixed .nav li a {
+  color: #ccd6e4;
+}
+.navbar-custom.is-fixed .navbar-brand:hover,
+.navbar-custom.is-fixed .navbar-brand:focus,
+.navbar-custom.is-fixed .nav li a:hover,
+.navbar-custom.is-fixed .nav li a:focus {
+  color: #7ca3d9;
+}
+
+/* 导航栏：内页 invert（原为深色文字） */
+.navbar-custom.invert .navbar-toggle .icon-bar {
+  background-color: #ccd6e4;
+}
+.navbar-custom.invert .navbar-brand,
+.navbar-custom.invert .nav li a {
+  color: #ccd6e4;
+}
+.navbar-custom.invert .navbar-brand:hover,
+.navbar-custom.invert .navbar-brand:focus,
+.navbar-custom.invert .nav li a:hover,
+.navbar-custom.invert .nav li a:focus {
+  color: #7ca3d9;
+}
+
+/* Hero 头图区：深蓝兜底 + 压暗背景图，营造月夜氛围 */
+.intro-header {
+  background-color: #182238;
+  background-blend-mode: multiply;
+}
+.intro-header.style-text .site-heading,
+.intro-header.style-text .post-heading,
+.intro-header.style-text .page-heading {
+  color: #ccd6e4;
+}
+.intro-header.style-text .tags a,
+.intro-header.style-text .tags .tag {
+  border-color: #8795ad;
+  color: #ccd6e4;
+}
+
+/* 首页文章卡片 */
+.post-preview > a > .post-title,
+.post-preview > a > .post-subtitle {
+  color: #e2e9f4;
+}
+.post-preview > .post-meta,
+.post-content-preview {
+  color: #8795ad;
+}
+.post-preview > .post-meta > a {
+  color: #ccd6e4;
+}
+
+/* 文章正文 */
+.post-container {
+  color: #ccd6e4;
+}
+.post-container a {
+  color: #7ca3d9;
+}
+.post-container a:hover,
+.post-container a:focus {
+  color: #a7c4ec;
+}
+.post-container h1,
+.post-container h2,
+.post-container h3,
+.post-container h4,
+.post-container h5,
+.post-container h6 {
+  color: #e2e9f4;
+}
+.post-container h2::before {
+  border-bottom: 1px solid #26324a;
+}
+.post-container h4 {
+  color: #8795ad;
+}
+
+/* 引用块、分割线、表格 */
+blockquote {
+  color: #8795ad;
+  border-left: 4px solid #c9a45c;
+}
+hr {
+  border-top-color: #26324a;
+}
+hr.small {
+  border-color: #26324a;
+}
+table.table > tbody th,
+table.table > thead th,
+table.table > tbody td,
+table.table > thead td {
+  border: 1px solid #26324a !important;
+}
+
+/* 侧边栏 */
+.sidebar-container,
+.sidebar-container a {
+  color: #8795ad;
+}
+.sidebar-container h5,
+.sidebar-container h5 a {
+  color: #c9a45c;
+}
+.sidebar-container a:hover,
+.sidebar-container a:active {
+  color: #7ca3d9;
+}
+.sidebar-container .tags a {
+  border-color: #3a4763;
+}
+
+/* 页脚 */
+footer .copyright {
+  color: #8795ad;
+}
+footer .copyright a {
+  color: #7ca3d9;
+}
+footer .copyright a:hover,
+footer .copyright a:focus {
+  color: #a7c4ec;
+}
+
+/* 侧边目录 */
+.side-catalog .catalog-body .active {
+  background-color: #182238;
+}
+.side-catalog .catalog-body .active a {
+  color: #7ca3d9;
+}
+
+/* 搜索 */
+.search-icon a,
+.search-icon-close {
+  color: #ccd6e4;
+}
+.search-page {
+  background-color: #0e1420;
+}
+.search-page #search-input {
+  color: #ccd6e4;
+}
+
+/* 下拉选择框（多语言切换） */
+select {
+  background: #182238;
+  color: #7ca3d9;
+  border-color: #7ca3d9;
 }
