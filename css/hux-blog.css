@@ -1740,9 +1740,10 @@ a:focus {
   color: #7ca3d9;
 }
 
-/* Hero 头图区：深蓝兜底 + 压暗背景图，营造月夜氛围 */
+/* Hero 头图区：背景图顶部对齐，完整显示月亮，压暗程度调低 */
 .intro-header {
-  background-color: #182238;
+  background-color: #3a4d6e;
+  background-position: center top;
   background-blend-mode: multiply;
 }
 .intro-header.style-text .site-heading,
